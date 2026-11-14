@@ -1,0 +1,31 @@
+{
+  "name": "term-images",
+  "version": "0.7.0",
+  "description": "Lets Claude render D2 diagrams locally and show them, and images, as real pictures inline in the terminal",
+  "userConfig": {
+    "maxColumns": {
+      "type": "number",
+      "title": "Max picture width",
+      "description": "Widest a picture is drawn, in terminal columns (1-255)",
+      "default": 120
+    },
+    "maxRows": {
+      "type": "number",
+      "title": "Max picture height",
+      "description": "Tallest a picture is drawn, in terminal rows (1-255); taller pictures are scaled down",
+      "default": 45
+    },
+    "cellAspect": {
+      "type": "number",
+      "title": "Cell height / width",
+      "description": "Height of a terminal cell divided by its width; raise it if pictures look stretched vertically",
+      "default": 2.1
+    },
+    "autoAllow": {
+      "type": "boolean",
+      "title": "Allow without asking",
+      "description": "Run show_diagram and show_image without a permission prompt (an explicit deny rule still wins)",
+      "default": true
+    }
+  }
+}

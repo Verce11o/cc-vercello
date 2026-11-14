@@ -1,0 +1,14 @@
+{
+  "name": "cc-vercello",
+  "description": "Claude Code mods that draw real pictures in the terminal: locally rendered diagrams and images",
+  "owner": {
+    "name": "Verce11o"
+  },
+  "plugins": [
+    {
+      "name": "term-images",
+      "source": "./term-images",
+      "description": "D2 diagrams rendered locally, and images, as real pictures inline in the terminal"
+    }
+  ]
+}
