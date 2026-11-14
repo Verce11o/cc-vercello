@@ -1,5 +1,8 @@
 # cc-vercello
 
+<img width="2688" height="664" alt="CleanShot 2026-11-14 at 18 42 46@2x" src="https://github.com/user-attachments/assets/994082db-3ab5-4fe0-8ebf-0298d657272a" />
+
+
 A [Claude Code](https://code.claude.com) plugin marketplace with a mod that draws real pictures in the terminal.
 
 | Plugin | What it does |
